@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora Rosa e Preto</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="display">
+      <input type="text" id="displayInput" readonly>
+    </div>
+    <div class="buttons">
+      <button class="num-button">7</button>
+      <button class="num-button">8</button>
+      <button class="num-button">9</button>
+      <button class="operator-button">+</button>
+      <button class="num-button">4</button>
+      <button class="num-button">5</button>
+      <button class="num-button">6</button>
+      <button class="operator-button">-</button>
+      <button class="num-button">1</button>
+      <button class="num-button">2</button>
+      <button class="num-button">3</button>
+      <button class="operator-button">*</button>
+      <button class="num-button">0</button>
+      <button class="num-button">00</button>
+      <button class="num-button" id="decimal-button">.</button>
+      <button class="operator-button">/</button>
+      <button id="clear-button">C</button>
+      <button id="equals-button">=</button>
+      
+    </div>
+    <div class="history">
+      <h3>Histórico de Cálculos:</h3>
+      <ul id="history-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
